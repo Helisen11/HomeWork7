@@ -751,12 +751,12 @@ color: #434455;
   /* FEATURES */
 
 .features-list {
-  width: 768px;
+  column-gap: 24px;
   display:flex;
      flex-wrap:wrap;
 }
 .features-item-mobile {
-flex-basis:calc((100%-24px)/2);
+flex-basis:calc((100% - 24px)/2);
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1200) { 
@@ -834,7 +834,7 @@ flex-basis:calc((100%-24px)/2);
 } 
 
 
-/* <!-- features---------------------------> */
+/* <!-- features---------------------------фыафыафыафаыафыафафыафыфыфыаафыафыафыафыафыафы> */
 
 .icon-communication {
   display: flex;
